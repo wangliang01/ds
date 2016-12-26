@@ -1,0 +1,51 @@
+/*reset.css*/
+html,body,div,h1,h2,h3,h4,h5,h6,ul,li,form,p,dl,dt,dd,input,img,span{
+	margin: 0;
+	padding: 0;
+}
+body{
+	font-size: 14px;
+	line-height: 20px;
+	font-family: "Microsoft Yahei";
+}
+ul,li{
+	list-style: none;
+}
+
+li{
+	display: inline-block;
+}
+
+a{
+	text-decoration: none;
+	display: inline-block;
+	color: #666;
+}
+
+img,input{
+	border: none;
+}
+
+/*左浮动*/
+.pull-left{
+	float: left;
+}
+
+/*右浮动*/
+.pull-right{
+	float: right;
+}
+
+/*清除浮动*/
+.clearfix{
+	zoom: 1; /*针对IE*/
+}
+
+.clearfix:after{
+	content: "";
+	display: block;
+	width: 0;
+	height: 0;
+	visibility: hidden;
+	clear: both;
+}

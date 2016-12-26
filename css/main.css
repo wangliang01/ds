@@ -1,0 +1,203 @@
+/*公共头部分*/
+.topbar{
+	background-color: #f7f7f7;
+	height: 31px;
+	line-height: 31px;
+	color: #666;
+}
+.comwidth{
+	width: 1000px;
+	margin: 0 auto;
+}
+
+.collection{
+	padding-left: 17px;
+	background: url(../imgs/icon/collection.png) no-repeat scroll 0 center;
+}
+
+/*logobar*/
+.logobar{
+	height: 86px;
+	background-color: #1d7ad9;
+}
+
+.logo{
+	padding-left: 36px;
+	padding-top: 16px;
+}
+
+.search-box{
+	width: 430px;
+	height: 35px;
+	font-size: 0;
+	padding: 24px 0 0 184px;
+}
+
+.search-text{
+	width: 360px;
+	height: 35px;
+	line-height: 35px\9;
+	font-size:14px;
+	text-indent: 10px;
+}
+
+.search-btn{
+	width: 70px;
+	height: 35px;
+	background-color: #ff8c00;
+	color: #fff;
+	font: bold 14px/1 "Microsoft-Yahei";
+}
+
+.shopcar{
+	width: 146px;
+	height: 35px;
+	line-height: 35px;
+	margin: 24px 38px 0 0;
+	background-color: #ff8c00;
+	color: #fff;
+	font-size: 0;
+}
+
+.shop-text{
+	display: inline-block;
+	width: 87px;
+	border-right: 1px solid #e27a00;
+	background:url(../imgs/icon/shopcar.png) no-repeat scroll 10px center;
+	text-indent: 40px;
+	font:  14px/35px "Microsoft-Yahei";
+	font-family: inherit;
+}
+.shop-num{
+	display: inline-block;
+	width: 29px;
+	border-left: 1px solid #ff9c01;
+	background: url(../imgs/icon/sj.png)no-repeat scroll 33px center;
+	font: bold 14px/35px "Microsoft-Yahei";
+	text-align: right;
+	padding-right: 28px;
+}
+
+/*navbar*/
+.navbar{
+	height: 35px;
+	background-color: #1369c0;
+	line-height: 35px;
+	color: #fff;
+}
+
+.navbar a{
+	color: #fff;
+	padding:0 32px;
+}
+
+.navbar h3{
+	width: 190px;
+	text-align: center;
+	font-size: 16px;
+}
+
+.navbar .sj{
+	display: inline-block;
+	width: 11px;
+	height: 7px;
+	background: url(../imgs/icon/sj2.png)no-repeat scroll 0 0;
+	margin-left: 10px;
+}
+
+.active{
+	background-color: #4593fd;
+}
+
+/*index-main*/
+.index-menu-left{
+	width: 190px;
+	background-color: #4593fd;
+}
+
+.index-menu-left dl{
+	height: 48px;
+	border:1px solid #3487f2;
+	background-color: #4593fd;
+	padding-left: 10px;
+	padding-top: 16px;
+	position: relative;
+}
+
+.index-menu-left dt a{
+	color: #fff;
+	font-size: 14px;
+	line-height: 18px;
+}
+
+.index-menu-left .about{
+	display: inline-block;
+	width: 5px;
+	height: 8px;
+	background: url(../imgs/icon/about.png)no-repeat scroll 0 0;
+	position: absolute;
+	right: 12px;
+	top: 24px;
+}
+
+.index-menu-left dl a.tj{
+	padding: 3px 6px;
+	background-color: #106ac0;
+	background: url(../imgs/icon/bg-tj.png)no-repeat scroll 0 3px;
+	text-decoration: underline;
+	font-size: 12px;
+	line-height: 18px;
+	color: #fff;
+}
+
+.index-menu-left dd a{
+	color: #fff;
+	font:12px/18px "宋体";
+}
+
+.index-menu-left .active{
+	background-color: #fff;
+}
+.index-menu-left .active .about{
+	background: none;
+}
+.index-menu-left .active a{
+	color: #000;
+}
+.index-menu-right{
+	margin-left: 190px;
+	height: 330px;
+	background: url(../imgs/banner1.png)no-repeat scroll 0 0;
+	font-family: "宋体";
+	line-height: 24px;
+}
+.index-menu-right .menu-list{
+	width: 530px;
+	height: 100%;
+	padding-left: 20px;
+	padding-right: 20px;
+	background-color: #fff;
+	border: 1px solid #e5e5e5;
+
+}
+.index-menu-right .menu-list .menu-list-item{
+	padding:16px 0 14px 0;
+	border-bottom: 1px solid #e5e5e5;
+
+}
+.index-menu-right .menu-list h4{
+	width: 72px;
+	float: left;
+}
+.index-menu-right .menu-list h4 a{
+	color: #4b88da;
+}
+.index-menu-right .menu-list p{
+	display: table-cell;
+	margin-left: 72px;
+}
+
+.index-menu-right .menu-list .menu-list-item .hot{
+	color: #ff7300;
+}
+
